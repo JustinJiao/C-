@@ -1,4 +1,5 @@
 #include <iostream>//头文件
+
 /* int main(){
     std::cout<<"Hello world";
     return 0;
@@ -41,7 +42,7 @@ int main(){
     return 0;
 }
 */
-
+/*
 int main(){
     int sum = 0,value = 0;
     while (std::cin >> value){//这里的效果是检测流的状态，
@@ -50,4 +51,15 @@ int main(){
     }
     std::cout << "Sum is:"<< sum << std::endl;
     return 0 ;
+
+*/
+
+/*
+#include "Sales_item.h"
+int main(){
+    Sales_item book;
+    std::cin >> book;
+    std::cout << book << std::endl;
+    return 0;
 }
+*/
